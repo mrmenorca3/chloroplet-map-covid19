@@ -1,7 +1,5 @@
 import streamlit as st
-import numpy as np
 from urllib.request import urlopen
-from ipywidgets import interact
 from matplotlib import pyplot as plt
 import json
 
@@ -37,4 +35,3 @@ def render(Week = 0):
 
 Week = st.slider('Week', 0, 114, 1)
 st.plotly_chart(render(Week))
-
