@@ -23,7 +23,7 @@ def render(Week = 0):
 
     fig = px.choropleth_mapbox(data, geojson=counties, featureidkey="properties.ADM2_EN",
                             locations='ADM2_EN', color='cases',
-                               color_continuous_scale="Reds",
+                               color_continuous_scale="YlOrRd",
                                mapbox_style="carto-positron",
                                labels={'cases':'Number of Cases'},
                                zoom = 7,
