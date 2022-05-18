@@ -34,4 +34,5 @@ def render(Week = 0):
     return fig
 
 Week = st.slider('Week', 0, 114, 1)
+st.write("Dates : ", df['Dates'][Week])
 st.plotly_chart(render(Week))
