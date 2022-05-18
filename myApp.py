@@ -2,7 +2,6 @@ import streamlit as st
 import numpy as np
 from urllib.request import urlopen
 from ipywidgets import interact
-import matplotlib as mpl
 from matplotlib import pyplot as plt
 import json
 
